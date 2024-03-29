@@ -4,4 +4,7 @@ def linear_search(nums: List , x: int):
         if i == x:
             return True
     return False
+
+if __name__ == "__main__":
+    print(linear_search([1,2,3], 30))
     
